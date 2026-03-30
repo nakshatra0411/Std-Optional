@@ -10,6 +10,7 @@
 //However, in C++20, placement new is strictly forbidden inside constant expressions.
 //So, change all occurences of placement new to std::construct_at. 
 //This rule is changed in C++26, so placement new will now work in constexpr functions at compile time.
+//Hash support not implemented yet.
 
 namespace m_std {
 	// 20.6.3, class template optional
